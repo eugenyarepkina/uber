@@ -46,13 +46,17 @@ h1 {font-family: Roboto;
 font-style: normal;
 font-weight: normal;
 font-size: 22px;
-line-height: 34px; }
+line-height: 34px; 
+padding-top: 56px;
+padding-bottom:32px ;}
 
 .card-body{
   border: none;
-
 }
 
+.card-body:hover{
+  background:#e0e0e0;
+}
 
 .card-rs-name{
 font-family: Roboto;
@@ -189,4 +193,114 @@ a.topmenu1 {
 .list-inline-item{
   padding-top:20px ;
   padding-bottom: 20px;
+}
+
+.topmenu2 {list-style-type: none; }
+
+
+.food1{
+  border: 1px solid rgba(117, 117, 117, 0.2);
+  border-radius: 2px;
+  position: relative;
+  height: 160px;
+  margin-bottom:49px;
+  padding-left: 16px;
+}
+
+.food1:hover{
+  background:#e0e0e0
+
+}
+
+
+.food-img{
+  position: absolute;
+  right: 0;
+  height: 100%;  
+}
+
+.food-name{
+  font-size: 16px;
+  line-height: 24px;
+  color: #1D1D1D;
+  padding-left:16px;
+  padding-top: 16px;
+}
+
+.food-description{font-size: 13px;
+  line-height: 21px;
+  color: #626262;
+  padding-left:16px;
+  padding-top: 4px;}
+
+.food-cost{font-size: 15px;
+    line-height: 21px;
+    font-weight: 500;
+    color: #1d1d1d;
+    position: absolute;
+    bottom: 1px;
+    padding-left:16px;}
+
+.img-rest{height: 364px; 
+  background-image:url(../img/bg_pushkin.jpg);   
+  background-size:cover;}
+
+.restaurant {
+  background-color: white; 
+  border: 1px; 
+  margin-top: 80px; 
+  padding: 0px 38px 0px 38px; }
+
+.restaurant h1 {margin: 0; 
+  padding-top: 38px; 
+  font-weight: normal; 
+  font-size: 36px; 
+  line-height: 42px; 
+  width: auto;}
+
+.font-cost {
+  font-size: 14px; 
+  line-height: 16px; 
+  margin: 0px; opacity: 0.5;}
+
+.food-time {
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center; 
+  padding-top: 54px; 
+  padding-bottom: 38px;}
+
+.font-time {width: 100px; 
+  height: 32px; 
+  border-radius: 16px; 
+  background-color: #262626; 
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  font-size: 13px; color: white;}
+
+.menu-link1{
+  text-decoration: none;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  display: flex;
+  align-items: flex-end;
+  color: #327430;
+  padding: 32px 0px 40px 32px;
+}
+
+.menu-link{
+  text-decoration: none;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  display: flex;
+  align-items: flex-end;
+  color: #626262;
+  padding: 32px 0px 40px 32px;
 }
